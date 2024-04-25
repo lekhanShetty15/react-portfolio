@@ -1,5 +1,5 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-
+import { useEffect } from "react";
 
 
 
@@ -10,7 +10,14 @@ const Hello = ()=>{
         loop: {},
         typeSpeed: 200,
         deleteSpeed:100
-    })
+    });
+    useEffect(() => {
+        const delay = setTimeout(() => {
+          setName(typeEffect); 
+        }, 2000); 
+    
+        return () => clearTimeout(delay);
+      }, [typeEffect]);
 
     return(
         <div className="main-hello">
