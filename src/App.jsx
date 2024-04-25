@@ -4,9 +4,15 @@ import { Stars } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 import './App.css'
 
+
 import Header from './components/header'
-import Hello from './components/hello'
+import Hello from './pages/hello'
 import Footer from './components/footer'
+import About from './pages/about'
+import Skill from './pages/skill';
+import Project from './pages/project';
+import Contact from './pages/contact';
+
 
 
 
@@ -33,9 +39,14 @@ const backgroundImage = useMotionTemplate`radial-gradient(125% 125% at 50% 0%, #
     }} 
     className='relative  overflow-hidden '>
       
-     <Header />
-     <Hello />
-     <Footer />
+    <Header />
+    <Hello />
+    <About />
+    <Skill />
+    <Project />
+    <Contact />
+    <Footer />
+     
      
     
      <div className='absolute inset-0 z-0'>
