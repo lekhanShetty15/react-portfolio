@@ -21,13 +21,13 @@ const Hello = ()=>{
                     <div className="hello-desc">I'm a full-stack software engineer with a <br />primary focus on front-end development. I <br />Love Working at the intersection of <br />Creativity.</div>
                     <div className="hello-Btn">
                         <button className="main-Btn1">Hire Me</button>
-                        <button className="main-Btn2">Download CV</button>
+                        <button className="main-Btn2">Get CV</button>
                     </div>
                 </div>
 
 
                 <div className="hello-image">
-
+                    <img className="hero-image" src="src/assets/home-right.webp" alt="image" />
                 </div>
 
             </div>

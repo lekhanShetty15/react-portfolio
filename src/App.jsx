@@ -41,10 +41,6 @@ const backgroundImage = useMotionTemplate`radial-gradient(125% 125% at 50% 0%, #
       
     <Header />
     <Hello />
-    <About />
-    <Skill />
-    <Project />
-    <Contact />
     <Footer />
      
      

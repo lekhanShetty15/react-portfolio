@@ -94,6 +94,8 @@
   padding: 0px 80px;
   display: flex;
   align-items: center;
+  background-color: transparent;
+
 
 }
 .hero-hello{
@@ -188,8 +190,38 @@
   z-index: 1000;
   width: 40%;
   height: 60vh;
+  display: flex;
+  justify-content: end;
+  align-items: last baseline;
+}
+.hero-image {
+  width: 80%;
+  filter: brightness(0.9);
+  animation: zoomIn 1s ease forwards, floatImage 2.7s ease-in-out infinite, fadeIn 1s ease forwards;
+  animation-delay: .5s;
+  opacity: 0; /* Initially hide the image */
 }
 
+@keyframes floatImage {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 
 
@@ -291,7 +323,7 @@
 .about-main{
   height: 100vh;
   width: 100%;
-  background-color: beige;
+  background-color: transparent;
 }
 
 
@@ -305,7 +337,7 @@
 .skill-main{
   height: 100vh;
   width: 100%;
-  background-color: blue;
+  background-color: transparent;
 }
 
 
@@ -317,7 +349,7 @@
 .project-main{
   height: 100vh;
   width: 100%;
-  background-color: navajowhite;
+  background-color: transparent;
 }
 
 
@@ -331,5 +363,5 @@
 .contact-main{
   height: 100vh;
   width: 100%;
-  background-color: gray;
+  background-color: transparent;
 }
