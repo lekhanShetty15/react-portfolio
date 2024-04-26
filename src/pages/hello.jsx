@@ -1,5 +1,6 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { useEffect } from "react";
+import { NavLink } from "react-router-dom";
 
 
 
@@ -27,7 +28,7 @@ const Hello = ()=>{
                     <div className="hello-name"><span>{typeEffect}</span><Cursor cursorStyle='_'></Cursor></div>
                     <div className="hello-desc">I'm a full-stack software engineer with a <br />primary focus on front-end development. I <br />Love Working at the intersection of <br />Creativity.</div>
                     <div className="hello-Btn">
-                        <button className="main-Btn1">Hire Me</button>
+                        <NavLink to='/contact' className="main-Btn1"><button>Hire Me</button></NavLink>
                         <button className="main-Btn2">Get CV</button>
                     </div>
                 </div>

@@ -2,16 +2,13 @@ import React, { useEffect } from 'react'
 import { motion, useMotionTemplate, useMotionValue,animate} from "framer-motion";
 import { Stars } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
+import { Outlet } from 'react-router-dom';
 import './App.css'
 
 
-import Header from './components/header'
-import Hello from './pages/hello'
-import Footer from './components/footer'
-import About from './pages/about'
-import Skill from './pages/skill';
-import Project from './pages/project';
-import Contact from './pages/contact';
+import Header from './components/Header'
+import Footer from './components/Footer'
+
 
 
 
@@ -40,7 +37,7 @@ const backgroundImage = useMotionTemplate`radial-gradient(125% 125% at 50% 0%, #
     className='relative  overflow-hidden '>
       
     <Header />
-    <Hello />
+    <Outlet />
     <Footer />
      
      

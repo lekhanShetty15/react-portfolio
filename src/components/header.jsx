@@ -1,4 +1,4 @@
-
+import { NavLink } from "react-router-dom"
 const Header = ()=>{
 
 
@@ -6,14 +6,14 @@ const Header = ()=>{
          <header className="header">
              <h1 className='name'>_Lekhan_Shetty_</h1>
              <div className='header-links'>
-                 <div className="links link1">_hello</div>
-                 <div className="links link2">_about</div>
-                 <div className="links link3">_skill</div>
-                 <div className="links link4">_project</div>
+            <NavLink to='/' className="links link1"><div>_hello</div></NavLink>
+            <NavLink to='/about' className="links link2"><div>_about</div></NavLink>
+            <NavLink to='/skill' className="links link3"><div>_skill</div></NavLink>
+            <NavLink to='/project' className="links link4"><div>_project</div></NavLink>
              </div>
              <div className="header-contact">
-                 _Contact_me_
-             </div>
+             <NavLink to='/contact' className="header-contact"><div>_Contact_me</div></NavLink> 
+            </div>
  
          </header>
      )
