@@ -5,7 +5,6 @@ import { Canvas } from '@react-three/fiber';
 import { Outlet } from 'react-router-dom';
 import './App.css'
 
-
 import Header from './components/Header'
 import Footer from './components/Footer'
 
@@ -27,6 +26,7 @@ const backgroundImage = useMotionTemplate`radial-gradient(125% 125% at 50% 0%, #
       repeatType: "mirror"
     })
   }, [])
+  
 
 
   return(
@@ -35,7 +35,7 @@ const backgroundImage = useMotionTemplate`radial-gradient(125% 125% at 50% 0%, #
       backgroundImage
     }} 
     className='relative  overflow-hidden '>
-      
+     
     <Header />
     <Outlet />
     <Footer />
