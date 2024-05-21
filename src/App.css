@@ -1549,6 +1549,28 @@ form{
 
 
 
+
+
+.success-popup {
+  margin-top: 500px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  font-size: 14px;
+  animation: fadeInOut 3s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0%, 100% { opacity: 0; }
+  10%, 90% { opacity: 1; }
+}
+
 .loader {
   display: inline-block;
   width: 16px;
@@ -1560,7 +1582,6 @@ form{
   vertical-align: middle;
   margin-left: 8px;
 }
-
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }

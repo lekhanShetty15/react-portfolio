@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser';
 const Contact = () => {
   const form = useRef();
   const [loading, setLoading] = useState(false);
+  const [showSuccess, setShowSuccess] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -18,6 +19,8 @@ const Contact = () => {
           console.log('SUCCESS!');
           form.current.reset();
           setLoading(false);
+          setShowSuccess(true);
+          setTimeout(() => setShowSuccess(false), 3000); // Hide the message after 3 seconds
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -54,6 +57,12 @@ const Contact = () => {
           )}
         </button>
       </form>
+
+      {showSuccess && (
+        <div className="success-popup">
+          Message sent successfully!
+        </div>
+      )}
     </div>
   );
 };
