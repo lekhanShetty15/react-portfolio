@@ -29,11 +29,11 @@ const Hello = ()=>{
                     <div className="hello-desc">I'm a full-stack software engineer with a <br />primary focus on front-end development. I <br />Love Working at the intersection of <br />Creativity.</div>
                     <div className="hello-Btn">
                         <NavLink to='/contact' className="main-Btn1"><button>Hire Me</button></NavLink>
-                        <button className="main-Btn2">Get CV</button>
+                        <a href="src/assets/lekhan shetty resume.pdf" download><button className="main-Btn2">Get CV</button></a>
                     </div>
                 </div>
 
-
+                
                 <div className="hello-image">
                     <img className="hero-image" src="src/assets/home-right.webp" alt="image" />
                 </div>
