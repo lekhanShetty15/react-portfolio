@@ -89,6 +89,11 @@
 
 }
 
+.header {
+    transition: background-color 0s ease;
+}
+
+
 
 
 
