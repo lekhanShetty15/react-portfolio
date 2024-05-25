@@ -95,6 +95,39 @@
 
 
 
+@media screen and (max-width: 600px)
+{
+  .header{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  
+.name{
+  display: none;
+}
+.header-links{
+  width: 100px;
+}
+.links{
+  padding: 10px;
+}
+.link4{
+  border-right:solid 1px rgba(112, 135, 158, 0.5) ;
+}
+
+.header-contact{
+ width: 30px;
+}
+
+
+
+}
+
+
+
 
 
 
@@ -275,6 +308,69 @@ button:hover{
 
 
 
+@media screen and (max-width: 600px)
+{
+
+  .main-hello{
+    padding: 50px;
+
+  }
+  .hero-hello{
+    display: block;
+  }
+  
+  .role{
+    width: 100%;
+    margin-top: 600px;
+    
+  }
+  .intro{
+    margin-top: 40px;
+    font-size: 13px;
+  }
+  .hello-name{
+    font-size: 33px;
+    letter-spacing: 1px;
+    margin-top: -35px;
+    word-spacing: -10px;
+    
+  }
+  .hello-desc {
+    width: 100%;
+    font-size: 11.5px;
+    margin-top: -35px;
+    line-height: 23px;
+  }
+
+
+
+  
+.main-Btn1 button{
+ width:80px;
+ height: 40px;
+ font-size: 12px;
+}
+.main-Btn2{
+  width:80px;
+ height: 40px;
+ font-size: 12px;
+}
+
+
+
+.hello-image{
+  width: 100%;
+ 
+}
+.hero-image {
+  position: absolute;
+  top: -530px;
+  right: 35px;
+}
+}
+
+
+
 
 
 /* footer section */
@@ -353,15 +449,51 @@ button:hover{
 
 
 .anifooter{
-  width: 70%;
+
+  margin: auto;
+  width: 50%;
   height: 49px;
   display: flex;
   justify-content: center;
   align-items: center;
+  display: flex;
   color: rgba(255, 255, 255, 0.8);
   pointer-events: none;
+  overflow: hidden;
 
+  }
+  .content{
+    display: flex;
+    width: 100%;
+    animation: slide 6s linear infinite;
+    white-space: nowrap;
+    gap: 250px;
+  }
+
+  @media screen and (max-width: 600px)
+{
+  
+.footer{
+ width: 100%;
 }
+.socials{
+  width: 100%;
+}
+.anifooter{
+  display: none;
+}
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+ 
+
 
 
 
@@ -488,12 +620,6 @@ button:hover{
 
 
 
-
-
-
-
-
-
 .right{
   padding: 35px 50px 35px 20px;
   margin-top: 60px;
@@ -562,7 +688,67 @@ button:hover{
 }
 
 
+@media screen and (max-width: 600px)
+{
+  .about-main{
+    display: block;
+    width: 100%;
+  }
 
+
+  .left{
+    padding: 35px 50px;
+    margin-top: 60px;
+    width: 100%;
+  
+  
+  }
+  
+  .aboutTitleDesc{
+  }
+  .selfDetails{
+  width: 100%;
+  display: block;
+  margin-top: 180px;
+  font-size: 15px;
+  }
+  .profileImg{
+   position: absolute;
+   left: 36%;
+   top: 52.5%;
+   width: 25%;
+  }
+  
+  .selfImage{
+    border: none;
+  }
+  .selfDetail2{
+    margin-top: -20px;
+  }
+  .selfDetail4{
+    margin-top: -20px;
+  }
+   
+  .highlights{
+   width: 100%;
+  }
+  .highLogo{
+    height: 40px;
+    width: 150px;
+
+  }
+  .fontHighLogo{
+    font-size: 15px;
+  }
+
+
+
+  
+.right{
+  width: 100%;
+  margin-top: -20px;
+}
+}
 
 
 /* skill page section */
@@ -1100,7 +1286,102 @@ button:hover{
 }
 
 
+@media screen and (max-width: 600px)
+{
+  
 
+
+  .skill-main{
+    width: 100%;
+    margin-top: -100px;
+    padding: 30px;
+    margin-left: -28px;
+    
+
+    
+  }
+  
+  
+  .maincontainer{
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+    
+    
+  }
+
+  .maincontainer2{
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 30px;
+
+  }
+  .maincontainer3{
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 60px;
+
+  }
+  .maincontainer4{
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 90px;
+
+  }
+  .maincontainer5{
+    width: 80px;
+    height: 80px;
+    margin-top: 130px;
+    margin-left: -235px;
+
+
+
+  }
+  .maincontainer6{
+    width: 80px;
+    height: 80px;
+    margin-top: -120px;
+    margin-left: 90px;
+    
+  }
+  .maincontainer7{
+    width: 80px;
+    height: 80px;
+    margin-top: -120px;
+    margin-left: 120px;
+  }
+  .maincontainer8{
+    width: 80px;
+    height: 80px;
+    margin-top: -120px;
+    margin-left: 150px;
+  }
+  .maincontainer9{
+    width: 80px;
+    height: 80px;
+    margin-top: -25px;
+    margin-left: -175px;
+  }
+  .maincontainer10{
+    width: 80px;
+    height: 80px;
+    margin-top: -25px;
+    margin-left: -145px;
+  }
+  .maincontainer11{
+    width: 80px;
+    height: 80px;
+    margin-top: -275px;
+    margin-left: 60px;
+  }
+  .theback{
+    width: 80px;
+    height: 80px;
+  }
+}
 
 
 
@@ -1400,6 +1681,15 @@ button:hover{
 
 
 
+.projectList.active {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: italic;
+}
+
+
+
+
 
 
 /* conatct page section */
@@ -1566,7 +1856,7 @@ form{
   padding: 10px 20px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  z-index: 1000;
+  z-index: 2000;
   font-size: 14px;
   animation: fadeInOut 3s ease-in-out;
 }
@@ -1591,4 +1881,12 @@ form{
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+
+
+
+
+
+
+
 

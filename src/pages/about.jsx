@@ -62,14 +62,14 @@ const About = ()=>{
                     </div>  
 
                         <div className="leftSelfDetails">
-                            <div><span>Born:</span> 15 November 2000</div>
-                            <div><span>City:</span> Mumbai, India</div>
+                            <div className="selfDetail1"><span>Born:</span> 15 November 2000</div>
+                            <div className="selfDetail2"><span>City:</span> Mumbai, India</div>
                         </div>
                         
 
                         <div className="rightSelfDetails">
-                        <div><span>Phone:</span> +91 9561573723</div>
-                        <div><span>Email:</span> lekhanshetty49@gmail.com</div>
+                        <div className="selfDetail3"><span>Phone:</span> +91 9561573723</div>
+                        <div className="selfDetail4"><span>Email:</span> lekhanshetty49@gmail.com</div>
                         </div>
                     </div>
 
