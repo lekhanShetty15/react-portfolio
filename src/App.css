@@ -582,8 +582,8 @@ button:hover{
   width: 85%;
 }
 .highLogo{
-  height: 50px;
-  width: 65px;
+  height: 40px;
+  width: 50px;
   background-color: #12171F;
   border-radius: 10px;
   display: flex;
@@ -604,6 +604,7 @@ button:hover{
   justify-content: flex-start;
   flex-direction: column;
   row-gap: 7px;
+  width: 100%;
 }
 .highTitle{
   font-size: 16px;
@@ -704,8 +705,6 @@ button:hover{
   
   }
   
-  .aboutTitleDesc{
-  }
   .selfDetails{
   width: 100%;
   display: block;
@@ -715,7 +714,7 @@ button:hover{
   .profileImg{
    position: absolute;
    left: 36%;
-   top: 52.5%;
+   top:57%;
    width: 25%;
   }
   
@@ -734,7 +733,7 @@ button:hover{
   }
   .highLogo{
     height: 40px;
-    width: 150px;
+    width: 60px;
 
   }
   .fontHighLogo{
@@ -757,19 +756,38 @@ button:hover{
 .skill-main{
   position: relative;
   width: 100%;
-  height: 130vh;
   background-color: transparent;
-  padding: 60px 0px;
+  padding: 35px 50px;
+  margin-top: 60px;
+  z-index: 2000;
+}
+.skillBox{
+  border: 1px solid  #39475a;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
+
+}
+.skillTitle h1{
+  font-size: 22px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.frontSkills{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 
 .maincontainer{
-  position: absolute;
   width:180px;
   height: 160px;
   background: none;
-  top: 17%;
-  left: 13%;
   transform: translate(-50%, -50%);
   z-index: 2000;
   cursor: pointer;
@@ -778,12 +796,9 @@ button:hover{
   opacity: 0;
 }
 .maincontainer2{
-  position: absolute;
   width:180px;
   height: 160px;
   background: none;
-  top: 17%;
-  left: 28%;
   transform: translate(-50%, -50%);
   z-index: 2000;
   cursor: pointer;
@@ -792,12 +807,31 @@ button:hover{
   opacity: 0;
 }
 .maincontainer3{
-  position: absolute;
   width:180px;
   height: 160px;
   background: none;
-  top: 17%;
-  left: 43%;
+  transform: translate(-50%, -50%);
+  z-index: 2000;
+  cursor: pointer;
+  animation: floatImage 2.7s ease-in-out infinite, fadeIn .3s ease forwards;
+  animation-delay: 1.3s;
+  opacity: 0;
+}
+.maincontainer4{
+  width:180px;
+  height: 160px;
+  background: none;
+  transform: translate(-50%, -50%);
+  z-index: 2000;
+  cursor: pointer;
+  animation: floatImage 2.7s ease-in-out infinite, fadeIn .3s ease forwards;
+  animation-delay: 1.4s;
+  opacity: 0;
+}
+.maincontainer5{
+  width:180px;
+  height: 160px;
+  background: none;
   transform: translate(-50%, -50%);
   z-index: 2000;
   cursor: pointer;
@@ -805,83 +839,43 @@ button:hover{
   animation-delay: .3s;
   opacity: 0;
 }
-.maincontainer4{
-  position: absolute;
+.maincontainer6{
   width:180px;
   height: 160px;
   background: none;
-  top: 17%;
-  left: 58%;
   transform: translate(-50%, -50%);
   z-index: 2000;
   cursor: pointer;
   animation: floatImage 2.7s ease-in-out infinite, fadeIn .3s ease forwards;
   animation-delay: .4s;
-  opacity: 0;
-}
-.maincontainer5{
-  position: absolute;
-  width:180px;
-  height: 160px;
-  background: none;
-  top: 17%;
-  left: 73%;
-  transform: translate(-50%, -50%);
-  z-index: 2000;
-  cursor: pointer;
-  animation: floatImage 2.7s ease-in-out infinite, fadeIn .3s ease forwards;
-  animation-delay: .5s;
-  opacity: 0;
-}
-.maincontainer6{
-  position: absolute;
-  width:180px;
-  height: 160px;
-  background: none;
-  top: 40%;
-  left: 13%;
-  transform: translate(-50%, -50%);
-  z-index: 2000;
-  cursor: pointer;
-  animation: floatImage 2.7s ease-in-out infinite, fadeIn .3s ease forwards;
-  animation-delay: .2s;
   opacity: 0;
 }
 .maincontainer7{
-  position: absolute;
   width:180px;
   height: 160px;
   background: none;
-  top: 40%;
-  left: 28%;
   transform: translate(-50%, -50%);
   z-index: 2000;
   cursor: pointer;
   animation: floatImage 2.7s ease-in-out infinite, fadeIn .3s ease forwards;
-  animation-delay: .4s;
+  animation-delay: .7s;
   opacity: 0;
 }
 .maincontainer8{
-  position: absolute;
   width:180px;
   height: 160px;
-  background: none;
-  top: 40%;
-  left: 43%;
+  background:none;
   transform: translate(-50%, -50%);
   z-index: 2000;
   cursor: pointer;
   animation: floatImage 2.7s ease-in-out infinite, fadeIn .3s ease forwards;
-  animation-delay: .6s;
+  animation-delay: 1.1s;
   opacity: 0;
 }
 .maincontainer9{
-  position: absolute;
   width:180px;
   height: 160px;
   background: none;
-  top: 40%;
-  left: 58%;
   transform: translate(-50%, -50%);
   z-index: 2000;
   cursor: pointer;
@@ -890,31 +884,70 @@ button:hover{
   opacity: 0;
 }
 .maincontainer10{
-  position: absolute;
   width:180px;
   height: 160px;
   background: none;
-  top: 40%;
-  left: 73%;
   transform: translate(-50%, -50%);
   z-index: 2000;
   cursor: pointer;
   animation: floatImage 2.7s ease-in-out infinite, fadeIn .3s ease forwards;
-  animation-delay: 1s;
+  animation-delay:.9s;
   opacity: 0;
 }
 .maincontainer11{
-  position: absolute;
   width:180px;
   height: 160px;
   background: none;
-  top: 63%;
-  left: 43.2%;
   transform: translate(-50%, -50%);
   z-index: 2000;
   cursor: pointer;
   animation: floatImage 2.7s ease-in-out infinite, fadeIn .3s ease forwards;
-  animation-delay:1.2s;
+  animation-delay:.6s;
+  opacity: 0;
+}
+.maincontainer12{
+  width:180px;
+  height: 160px;
+  background: none;
+  transform: translate(-50%, -50%);
+  z-index: 2000;
+  cursor: pointer;
+  animation: floatImage 2.7s ease-in-out infinite, fadeIn .3s ease forwards;
+  animation-delay:1.5s;
+  opacity: 0;
+}
+.maincontainer13{
+  width:180px;
+  height: 160px;
+  background: none;
+  transform: translate(-50%, -50%);
+  z-index: 2000;
+  cursor: pointer;
+  animation: floatImage 2.7s ease-in-out infinite, fadeIn .3s ease forwards;
+  animation-delay:1s;
+  opacity: 0;
+}
+.maincontainer14{
+  width:180px;
+  height: 160px;
+  background: none;
+  transform: translate(-50%, -50%);
+  z-index: 2000;
+  cursor: pointer;
+  animation: floatImage 2.7s ease-in-out infinite, fadeIn .3s ease forwards;
+  animation-delay:.5s;
+  opacity: 0;
+}
+
+.maincontainer15{
+  width:180px;
+  height: 160px;
+  background: none;
+  transform: translate(-50%, -50%);
+  z-index: 2000;
+  cursor: pointer;
+  animation: floatImage 2.7s ease-in-out infinite, fadeIn .3s ease forwards;
+  animation-delay:1.3s;
   opacity: 0;
 }
 @keyframes floatImage {
@@ -1265,11 +1298,35 @@ button:hover{
   margin-top: -3px;
   width: 70%;
   height: 15px;
-  background-color: #3e75c3;
+  background-color: #672a7a;
   border-radius: 5px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
 }
 .percentage11{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border: solid 5px #672a7a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 50%;
+  margin-top: 25px;
+  left: 30%;
+  font-size: 13px;
+}
+.progress12{
+  position: absolute;
+  margin-top: -3px;
+  width: 70%;
+  height: 15px;
+  background-color: #3e75c3;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+.percentage12{
   position: absolute;
   height: 50px;
   width: 50px;
@@ -1285,6 +1342,82 @@ button:hover{
   font-size: 13px;
 }
 
+
+.progress13{
+  position: absolute;
+  margin-top: -3px;
+  width: 70%;
+  height: 15px;
+  background-color: #ac1e23;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+.percentage13{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border: solid 5px #ac1e23;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 50%;
+  margin-top: 25px;
+  left: 30%;
+  font-size: 13px;
+}
+
+.progress14{
+  position: absolute;
+  margin-top: -3px;
+  width: 70%;
+  height: 15px;
+  background-color: #9a4993;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+.percentage14{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border: solid 5px #9a4993;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 50%;
+  margin-top: 25px;
+  left: 30%;
+  font-size: 13px;
+}
+
+.progress15{
+  position: absolute;
+  margin-top: -3px;
+  width: 80%;
+  height: 15px;
+  background-color: #00b0ff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+.percentage15{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border: solid 5px #00b0ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 50%;
+  margin-top: 25px;
+  left: 30%;
+  font-size: 13px;
+
+}
 
 @media screen and (max-width: 600px)
 {
@@ -1684,7 +1817,9 @@ button:hover{
 .projectList.active {
   text-transform: uppercase;
   font-weight: 500;
-  font-style: italic;
+  border-bottom: solid 2px #c44656;
+  
+
 }
 
 
@@ -1885,7 +2020,36 @@ form{
 
 
 
+@media screen and (max-width: 600px)
+{
+ 
+.contact-main{
+ padding: 0px 50px 0px 50px;
+}
 
+.conatctDesc{
+  width: 100%;
+}
+.nameInpt{
+  width: 350px;
+}
+.emailInpt{
+  width: 350px;
+}
+.textdesc{
+  width: 350px;
+
+}
+.submitBtnlast{
+  width: 350px;
+}
+.success-popup {
+  margin-top: 725px;
+ 
+}
+
+
+}
 
 
 

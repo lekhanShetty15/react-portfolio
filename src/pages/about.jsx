@@ -26,7 +26,17 @@ const About = ()=>{
 
 
                     <div className="highlights">
-                        <div className="highLogo"><i class="fa-solid fa-globe fontHighLogo"></i></div>
+                        <div className="highLogo"><i class="fa-brands fa-figma fontHighLogo"></i></div>
+
+                        <div className="highTitleAndDesc">
+                            <div className="highTitle">UI and UX</div>
+                            <div className="highDesc">Design a clean, visually appealing portfolio website with consistent typography and color schemes, ensuring simplicity and accessibility. Use intuitive navigation, responsive design, and subtle animations to enhance user engagement.</div>
+
+                        </div>
+                    </div>
+
+                    <div className="highlights">
+                        <div className="highLogo"><i class="fa-solid fa-chart-simple fontHighLogo"></i></div>
 
                         <div className="highTitleAndDesc">
                             <div className="highTitle">Full Stack Development</div>
@@ -36,21 +46,11 @@ const About = ()=>{
                     </div>
 
                     <div className="highlights">
-                        <div className="highLogo"><i class="fa-solid fa-globe fontHighLogo"></i></div>
+                        <div className="highLogo"><i class="fa-solid fa-briefcase fontHighLogo"></i></div>
 
                         <div className="highTitleAndDesc">
-                            <div className="highTitle">Full Stack Development</div>
-                            <div className="highDesc">Over the years, I've specialized in all areas of the stack, Front-End to Back-End, DevOps and Infrastructure, at scale.</div>
-
-                        </div>
-                    </div>
-
-                    <div className="highlights">
-                        <div className="highLogo"><i class="fa-solid fa-globe fontHighLogo"></i></div>
-
-                        <div className="highTitleAndDesc">
-                            <div className="highTitle">Full Stack Development</div>
-                            <div className="highDesc">Over the years, I've specialized in all areas of the stack, Front-End to Back-End, DevOps and Infrastructure, at scale.</div>
+                            <div className="highTitle">Professional job role</div>
+                            <div className="highDesc">As a .NET Full Stack Developer at Masstech Business Solution, I develop dynamic web applications that drive business success. My role covers end-to-end development, from intuitive user interfaces to robust server-side functionality. Collaborating with diverse teams, I deliver cutting-edge solutions that exceed client expectations.</div>
 
                         </div>
                     </div>
@@ -98,7 +98,7 @@ const About = ()=>{
                     </div>
                     <div className="collegeDetails">
                         <h1 className="college">ASM IMCOST College, Mumbai</h1>
-                        <h1 className="eduDesc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, error.</h1>
+                        <h1 className="eduDesc">Successfully completed my MCA, I've honed advanced skills in computer applications and software development.</h1>
 
                     </div>
 
@@ -110,7 +110,7 @@ const About = ()=>{
                     </div>
                     <div className="collegeDetails">
                         <h1 className="college">BNN College, Mumbai</h1>
-                        <h1 className="eduDesc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, error.</h1>
+                        <h1 className="eduDesc">BS in Information Technology Equipping with the skills for navigating the digital landscape through computer systems and software expertise.</h1>
 
                     </div>
 
@@ -131,7 +131,7 @@ const About = ()=>{
                     </div>
                     <div className="collegeDetails">
                         <h1 className="college">CUVETTE</h1>
-                        <h1 className="eduDesc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, error.</h1>
+                        <h1 className="eduDesc">Explore the complete MERN (MongoDB, Express.js, React.js, Node.js) stack through hands-on projects, mastering each component to develop powerful, modern web applications.</h1>
 
                     </div>
 
@@ -143,7 +143,7 @@ const About = ()=>{
                     </div>
                     <div className="collegeDetails">
                         <h1 className="college">JSPIDERS</h1>
-                        <h1 className="eduDesc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, error.</h1>
+                        <h1 className="eduDesc">My inaugural course where I honed my skills in seamlessly blending front-end and back-end technologies to build dynamic web applications.</h1>
 
                     </div>
 
