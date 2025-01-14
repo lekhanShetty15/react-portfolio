@@ -12,7 +12,7 @@ const Project = () => {
         <div className="project-main">
             <div className="left-project">
                 <div className="project-title">
-                    //projects
+                   
                 </div>
                 <div className="project-names">
                     <div className="pname">
@@ -22,7 +22,7 @@ const Project = () => {
                             onClick={() => updateToggle(1)}
                         >
                             <div><i className="fa-solid fa-folder folder"></i></div>
-                            <div className="proname">Car Rental Website</div>
+                            <div className="proname">MASSTECHEDU</div>
                         </div>
 
                         <div

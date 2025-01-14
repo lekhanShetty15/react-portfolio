@@ -26,7 +26,7 @@ const Hello = ()=>{
                 <div className="role">
                     <div className="intro">Hello, I am</div>
                     <div className="hello-name"><span>{typeEffect}</span><Cursor cursorStyle='_'></Cursor></div>
-                    <div className="hello-desc">I'm a full-stack software engineer with a <br />primary focus on front-end development. I <br />Love Working at the intersection of <br />Creativity.</div>
+                    <div className="hello-desc">Experienced Full Stack .NET Developer skilled in <br />building scalable web apps with ASP.NET Core,  <br />Angular, and modern tech.<br />"Passionate about seamless solutions and innovation"</div>
                     <div className="hello-Btn">
                         <NavLink to='/contact' className="main-Btn1"><button>Hire Me</button></NavLink>
                         <a href="src/assets/lekhan shetty resume.pdf" download><button className="main-Btn2">Get CV</button></a>

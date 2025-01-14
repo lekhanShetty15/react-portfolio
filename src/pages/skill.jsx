@@ -98,6 +98,31 @@ const Skill = () => {
       </div>
 
 
+
+
+
+
+      <div class="maincontainer6">
+        <div class="thecard">
+
+
+          <div class="thefront">
+            <img src="src/assets/angular.png" alt="Reactjs" />
+          </div>
+
+          <div class="theback">
+            <h1>Angular</h1>
+            <div className="fullline">
+              <div className="progress6"></div>
+              <div className="percentage6">50%</div>
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
       </div>
     </div>
 
@@ -163,11 +188,11 @@ const Skill = () => {
 
 
           <div class="thefront">
-            <img src="src/assets/express-svgrepo-com.svg" alt="Expressjs" />
+            <img src="src/assets/mvc.png" alt="MVC" />
           </div>
 
           <div class="theback">
-            <h1>Expressjs</h1>
+            <h1>MVC</h1>
             <div className="fullline">
               <div className="progress7"></div>
               <div className="percentage7">10%</div>
@@ -178,24 +203,7 @@ const Skill = () => {
       </div>
 
 
-      <div class="maincontainer9">
-        <div class="thecard">
-
-
-          <div class="thefront">
-            <img src="src/assets/nodejs01-svgrepo-com.svg" alt="Nodejs" />
-          </div>
-
-          <div class="theback">
-            <h1>Nodejs</h1>
-            <div className="fullline">
-              <div className="progress9"></div>
-              <div className="percentage9">10%</div>
-
-            </div>
-          </div>
-        </div>
-      </div>
+      
       
 
       </div>
@@ -213,24 +221,7 @@ const Skill = () => {
 
 
         
-      <div class="maincontainer10">
-        <div class="thecard">
-
-
-          <div class="thefront">
-            <img src="src/assets/mongodb-svgrepo-com.svg" alt="MongoDB" />
-          </div>
-
-          <div class="theback">
-            <h1>MongoDB</h1>
-            <div className="fullline">
-              <div className="progress10"></div>
-              <div className="percentage10">10%</div>
-
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
 
       <div class="maincontainer13">
@@ -377,6 +368,49 @@ const Skill = () => {
 
           <div class="theback">
             <h1>Github</h1>
+            <div className="fullline">
+              <div className="progress12"></div>
+              <div className="percentage12">70%</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      
+      <div class="maincontainer12">
+        <div class="thecard">
+
+
+          <div class="thefront">
+            <img src="src/assets/pngwing.com (2).png" alt="GITLAB" />
+          </div>
+
+          <div class="theback">
+            <h1>GitLab</h1>
+            <div className="fullline">
+              <div className="progress12"></div>
+              <div className="percentage12">70%</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="maincontainer12">
+        <div class="thecard">
+
+
+          <div class="thefront">
+            <img src="src/assets/iss.png" alt="IIS" />
+          </div>
+
+          <div class="theback">
+            <h1>IIS</h1>
             <div className="fullline">
               <div className="progress12"></div>
               <div className="percentage12">70%</div>
